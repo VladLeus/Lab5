@@ -128,7 +128,7 @@ namespace Lab5
             if (!regex.IsMatch(OrgName.Text))
             {
                 e.Cancel = true;
-                errorProvider.SetError((TextBox)sender, "Name cant contain numbers or more than 1 uppercase letter");
+                errorProvider.SetError((TextBox)sender, "Name cant contain numbers");
             }
             else
             {
@@ -142,7 +142,7 @@ namespace Lab5
             if (!regex.IsMatch(Theme.Text))
             {
                 e.Cancel = true;
-                errorProvider.SetError((TextBox)sender, "Name cant contain numbers or more than 1 uppercase letter");
+                errorProvider.SetError((TextBox)sender, "Name cant contain numbers");
             }
             else
             {
@@ -156,7 +156,7 @@ namespace Lab5
             if (!regex.IsMatch(Cost.Text))
             {
                 e.Cancel = true;
-                errorProvider.SetError((TextBox)sender, "Name cant contain numbers or more than 1 uppercase letter");
+                errorProvider.SetError((TextBox)sender, "Name cant contain letters");
             }
             else
             {
